@@ -10,7 +10,7 @@ metadata:
 spec:
   configBundleSecret: quay-registry-config-bundle-t6jtb
   components:
-  - kind: quay
+    - kind: quay
       managed: true
     - kind: postgres
       managed: true
