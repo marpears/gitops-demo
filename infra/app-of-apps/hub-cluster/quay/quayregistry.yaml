@@ -8,4 +8,4 @@ metadata:
     argocd.argoproj.io/sync-wave: "5"
     argocd.argoproj.io/sync-options: SkipDryRunOnMissingResource=true
 spec:
-  configBundleSecret: config-bundle-secret
+  configBundleSecret: quay-registry-config-bundle-t6jtb
