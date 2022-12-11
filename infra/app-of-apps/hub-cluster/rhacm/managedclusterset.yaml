@@ -1,0 +1,7 @@
+apiVersion: cluster.open-cluster-management.io/v1alpha1
+kind: ManagedClusterSet
+metadata:
+  annotations:
+    argocd.argoproj.io/sync-wave: "6"
+  name: all-openshift-clusters
+  spec: {}
