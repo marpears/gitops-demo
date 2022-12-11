@@ -21,7 +21,7 @@ spec:
 
   # Destination cluster and namespace to deploy the application
   destination:
-    server: https://api.test-cluster2.sandbox1857.opentlc.com:6443
+    server: https://kubernetes.default.svc
     namespace: openshift-gitops
 
  
